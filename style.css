@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-top {
+    background-color: #7F321B;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-top a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.nav-link {
+    color: rgb(210, 7, 7);
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.search-icon {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.hero h1 {
+    font-family: 'Times New Roman', serif; /* Change font to Times New Roman */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.category-grid {
+    padding: 40px 0;
+}
+
+.category-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.category-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #7f321b6b; /* Add border to images */
+}
+
+.category-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    text-align: center; /* Center the button */
+}
+
+.category-overlay button {
+    background-color: #7F321B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.category-overlay h3 {
+    margin: 0;
+}
+
+.footer {
+    background-color: #7F321B;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.navbar-brand img {
+    max-height: 100px; /* Adjust this value as needed */
+    /* Or use max-width: 100px; */
+}
