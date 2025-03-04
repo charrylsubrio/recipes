@@ -38,18 +38,19 @@ body {
 
 .hero {
     text-align: center;
-    padding: 50px 0;
+    padding: 60px;
     background-color: #ffffff;
 }
 
 .hero h1 {
-    font-family: 'Times New Roman', serif; /* Change font to Times New Roman */
+    font-family: 'Times New Roman', serif;
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
 
 .category-grid {
-    padding: 40px 0;
+    padding: 10px;
+    padding-bottom: 70px;
 }
 
 .category-item {
@@ -61,7 +62,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid #7f321b6b; /* Add border to images */
+    border: 1px solid #7f321b6b;
 }
 
 .category-overlay {
@@ -72,7 +73,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 15px;
-    text-align: center; /* Center the button */
+    text-align: center;
 }
 
 .category-overlay button {
@@ -90,12 +91,11 @@ body {
 
 .footer {
     background-color: #7F321B;
-    padding: 20px 0;
+    padding: 30px;
     text-align: center;
     color: white;
 }
 
 .navbar-brand img {
-    max-height: 100px; /* Adjust this value as needed */
-    /* Or use max-width: 100px; */
+    max-height: 100px;
 }
